@@ -57,8 +57,7 @@ const Products = () => {
     setPrice(newPrice);
   };
   const count = filteredProductsCount;
-  // console.log(useSelector((state) => state));
-  // console.log(totalPages, productsCount, resultPerPage, filteredProductsCount);
+
   return (
     <Fragment>
       {loading ? (
