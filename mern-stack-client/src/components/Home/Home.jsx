@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearError, getProduct } from "../../actions/productAction.js";
 import Loader from "../Layout/Loader/Loader.jsx";
 import {useAlert} from 'react-alert'
-
 import { Mouse } from "@mui/icons-material";
 
 const Home = () => {
