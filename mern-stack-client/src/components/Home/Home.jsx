@@ -21,7 +21,6 @@ const Home = () => {
     }
     dispatch(getProduct());
   }, [dispatch,error,alert]);
-  // console.log(useSelector((state) => state),error);
   return (
     <Fragment>
       {loading ? (
