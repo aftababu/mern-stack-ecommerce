@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node mern-stack-server/server.js",
     "dev": "nodemon mern-stack-server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install && cd mern-stack-client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
