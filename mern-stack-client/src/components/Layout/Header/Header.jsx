@@ -1,6 +1,5 @@
-import React from "react";
 import { ReactNavbar } from "overlay-navbar";
-import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
+import {Search,ShoppingCart,People} from '@mui/icons-material'
 import logo from "/images/logo.png";
 
 const options = {
@@ -28,7 +27,7 @@ const options = {
   link1ColorHover: "#eb4034",
   link1Margin: "1vmax",
   searchIcon: true,
-  SearchIconElement: FaSearch,
+  SearchIconElement: Search,
   searchIconUrl: "/search", // Set the URL for the search icon
   searchIconSize: "2vmax",
   searchIconTransition: 0.5,
@@ -37,7 +36,7 @@ const options = {
   searchIconColorHover: "#eb4034",
   searchIconMargin: "1vmax", 
   cartIcon: true,
-  CartIconElement: FaShoppingCart,
+  CartIconElement: ShoppingCart,
   cartIconColor: "rgba(35, 35, 35, 0.8)",
   cartIconColorHover: "#eb4034", // Hover color for the cart icon
   cartIconSize: "2vmax",
@@ -45,7 +44,7 @@ const options = {
   cartIconAnimationTime: 2,
    cartIconMargin: "1vmax", 
   profileIcon: true,
-  ProfileIconElement: FaUser,
+  ProfileIconElement: People,
   profileIconUrl: "/login",
   profileIconColor: "rgba(35, 35, 35, 0.8)",
   profileIconColorHover: "#eb4034", // Hover color for the profile icon

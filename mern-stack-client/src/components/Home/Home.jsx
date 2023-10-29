@@ -1,5 +1,4 @@
-import React, { Fragment, useEffect } from "react";
-import { CgMouse } from "react-icons/cg";
+import  { Fragment, useEffect } from "react";
 import ProductCard from "../Product/ProductCard.jsx";
 import "./Home.css";
 import MetaData from "../Layout/MetaData.jsx";
@@ -7,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearError, getProduct } from "../../actions/productAction.js";
 import Loader from "../Layout/Loader/Loader.jsx";
 import {useAlert} from 'react-alert'
+import { Mouse } from "@mui/icons-material";
 
 const Home = () => {
   const alert=useAlert()
@@ -34,7 +34,7 @@ const Home = () => {
             <h1>FIND AMAZING PRODUCTS BELOW</h1>
             <a href="#container">
               <button>
-                Scroll <CgMouse />
+                Scroll <Mouse />
               </button>
             </a>
           </div>
