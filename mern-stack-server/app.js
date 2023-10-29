@@ -39,6 +39,7 @@ app.use("/api/v1/", order);
 app.use("/api/v1/", payment);
 app.use(express.static(path.join(__dirname, "../mern-stack-client/dist")));
 
+
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../mern-stack-client/dist/index.html"));
 });
