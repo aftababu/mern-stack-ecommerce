@@ -15,7 +15,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://ecommerce-kknr.onrender.com",
   credentials: true,
   
 };
